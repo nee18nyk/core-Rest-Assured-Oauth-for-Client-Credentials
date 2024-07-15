@@ -7,3 +7,5 @@
 - In the script, access token is stored as a string from jsonpath object parsed from response. Then it is passed in the Get request.
 - Usually access token is passsed via form data(so as to not expose critical information in URL) but here the api was developed to pass access token via query parameter
 - Configured to run with Junit
+
+If you have any questions, please contact me on neenyk18@gmail.com
