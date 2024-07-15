@@ -5,7 +5,7 @@
 - I have used Client credentials grant type API in my automation code. It uses 2 parameters - client id and client secret in Form data. If validation is successful, access token is provided.
 - In Password grant type, username and password is required in Form Data
 - In the script, access token is stored as a string from jsonpath object parsed from response. Then it is passed in the Get request.
-- Usually access token is passsed via form data(so as to not expose critical information in URL) but here the api was developed to pass access token via query parameter
+- Usually access token is passed via form data(so as to not expose critical information in URL) but here the api was developed to pass access token via query parameter
 - Configured to run with Junit
 
 If you have any questions, please contact me on neenyk18@gmail.com
